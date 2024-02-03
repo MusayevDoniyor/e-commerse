@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@mixin style1() {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.43px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+@mixin style2() {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import "./header";
+@import "./hero";

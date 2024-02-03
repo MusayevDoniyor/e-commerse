@@ -1,0 +1,128 @@
+// ! HERO SECTION
+.hero-section {
+    width: 100%;
+    height: 410px;
+    margin-top: 100px;
+
+    .hero-main {
+        width: auto;
+        height: 282px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .box1 {
+        width: 269px;
+        height: 282px;
+
+        h3 {
+            width: 145px;
+            height: 27px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: rgba(21, 21, 21, 1);
+        }
+
+        ul {
+            width: 269px;
+            height: 143px;
+            margin-bottom: 30px;
+
+            li a {
+                width: auto;
+                height: 19px;
+                @include style2();
+                text-decoration: underline;
+                color: rgba(106, 152, 60, 1);
+            }
+        }
+
+        .categoriesLink {
+            width: 179px;
+            height: 408px;
+            padding: 10px 20px;
+            background-color: rgba(245, 245, 245, 1);
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 22.5px;
+            color: rgba(21, 21, 21, 1);
+
+
+            &::after {
+                content: url(../images/ic-chevron-right.svg);
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                top: 518px;
+            }
+        }
+    }
+
+    .box2 {
+        width: 419px;
+        height: 280px;
+        border-radius: 12px;
+        background-color: rgb(197, 193, 193);
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        position: relative;
+
+        h4 {
+            width: 103px;
+            height: 18px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: rgba(106, 152, 60, 1);
+            margin-top: 40px;
+            margin-left: 32px;
+        }
+
+        h3 {
+            width: 205px;
+            height: 33px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            margin-left: 32px;
+            margin-bottom: 100px;
+        }
+
+        a {
+            width: 170x;
+            height: 47px;
+            margin-left: 32px;
+            border-radius: 12px;
+            padding: 12px 18px;
+            border: 2px solid rgba(146, 192, 100, 1);
+            color: black;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 22.5px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+
+            svg {
+                position: absolute;
+                top: 215px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
